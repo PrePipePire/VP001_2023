@@ -1,0 +1,15 @@
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\A001_BMI.csproj.AssemblyReference.cache
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\A001_BMI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\A001_BMI.AssemblyInfoInputs.cache
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\A001_BMI.AssemblyInfo.cs
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\A001_BMI.csproj.CoreCompileInputs.cache
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\bin\Debug\net6.0\A001_BMI.exe
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\bin\Debug\net6.0\A001_BMI.deps.json
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\bin\Debug\net6.0\A001_BMI.runtimeconfig.json
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\bin\Debug\net6.0\A001_BMI.dll
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\bin\Debug\net6.0\A001_BMI.pdb
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\A001_BMI.dll
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\refint\A001_BMI.dll
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\A001_BMI.pdb
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\A001_BMI.genruntimeconfig.cache
+C:\Users\tahun\OneDrive\바탕 화면\ㄱㅌㅎ\비주얼프로그래밍\CS01\A001_BMI\obj\Debug\net6.0\ref\A001_BMI.dll
