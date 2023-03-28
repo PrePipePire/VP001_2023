@@ -1,4 +1,6 @@
-namespace A007_labels
+using A007_labels;
+
+namespace A008_labels
 {
     internal static class Program
     {

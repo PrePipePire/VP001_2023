@@ -17,7 +17,7 @@ namespace A003_format
 
             //포맷으로 출력
             //10 이하의 소수 = 2, 3, 5, 7
-            Console.WriteLine("10 DLGKDML THTN : 2, 3, 5, 7");
+            Console.WriteLine("10 이하의 소수 : 2, 3, 5, 7");
             Console.WriteLine("10 이하의 소수 : " + 2 + ", " + 3 + ", " + 5 + ", " + 7);
             Console.WriteLine("10 이하의 소수 : {0}, {1}, {2}, {3}", 2, 3, 5, 7);
             //printf(%d, %d, %d, %d, 2, 3, 5, 7)

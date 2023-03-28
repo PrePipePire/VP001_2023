@@ -28,27 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtHeight = new TextBox();
+            txtWeight = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
-            button1 = new Button();
+            lblBMI = new Label();
+            btnCal = new Button();
+            lblresult = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // txtHeight
             // 
-            textBox1.Location = new Point(124, 56);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            txtHeight.Location = new Point(124, 56);
+            txtHeight.Name = "txtHeight";
+            txtHeight.Size = new Size(100, 23);
+            txtHeight.TabIndex = 0;
             // 
-            // textBox2
+            // txtWeight
             // 
-            textBox2.Location = new Point(124, 119);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 1;
+            txtWeight.Location = new Point(124, 119);
+            txtWeight.Name = "txtWeight";
+            txtWeight.Size = new Size(100, 23);
+            txtWeight.TabIndex = 1;
             // 
             // label1
             // 
@@ -68,49 +71,70 @@
             label2.TabIndex = 3;
             label2.Text = "체중(kg)";
             // 
-            // label3
+            // lblBMI
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(28, 253);
-            label3.Name = "label3";
-            label3.Size = new Size(0, 15);
-            label3.TabIndex = 4;
+            lblBMI.AutoSize = true;
+            lblBMI.Location = new Point(28, 253);
+            lblBMI.Name = "lblBMI";
+            lblBMI.Size = new Size(0, 15);
+            lblBMI.TabIndex = 4;
             // 
-            // button1
+            // btnCal
             // 
-            button1.Location = new Point(139, 192);
-            button1.Name = "button1";
-            button1.Size = new Size(85, 25);
-            button1.TabIndex = 5;
-            button1.Text = "BMI";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnCal.Location = new Point(139, 192);
+            btnCal.Name = "btnCal";
+            btnCal.Size = new Size(85, 25);
+            btnCal.TabIndex = 5;
+            btnCal.Text = "BMI";
+            btnCal.UseVisualStyleBackColor = true;
+            btnCal.Click += button1_Click;
+            // 
+            // lblresult
+            // 
+            lblresult.AutoSize = true;
+            lblresult.Location = new Point(28, 324);
+            lblresult.Name = "lblresult";
+            lblresult.Size = new Size(0, 15);
+            lblresult.TabIndex = 6;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(157, 295);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(85, 67);
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(290, 402);
-            Controls.Add(button1);
-            Controls.Add(label3);
+            Controls.Add(pictureBox1);
+            Controls.Add(lblresult);
+            Controls.Add(btnCal);
+            Controls.Add(lblBMI);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtWeight);
+            Controls.Add(txtHeight);
             Name = "Form1";
             Text = "BMI 계산기";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtHeight;
+        private TextBox txtWeight;
         private Label label1;
         private Label label2;
-        private Label label3;
-        private Button button1;
+        private Label lblBMI;
+        private Button btnCal;
+        private Label lblresult;
+        private PictureBox pictureBox1;
     }
 }

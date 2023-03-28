@@ -1,6 +1,4 @@
-using A006_BasicControl;
-
-namespace A006_BasicControls
+namespace A015_chart_control
 {
     internal static class Program
     {

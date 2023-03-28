@@ -15,11 +15,37 @@ namespace A002_BMI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double height = double.Parse(textBox1.Text);
-            double weight = double.Parse(textBox2.Text);
+            double height = double.Parse(this.txtHeight.Text);
+            double weight = double.Parse(txtWeight.Text);
             double bmi = weight / (height / 100 * height / 100);
-            label3.Text = "BMI = " + bmi;
-            label3.Text = String.Format("BMI = {0}", bmi);
+            //lblBMI.Text = "BMI = " + bmi;
+            lblBMI.Text = String.Format("BMI = {0}", bmi);
+
+            if (bmi < 20)
+            {
+                lblresult.Text = "저체중";
+                pictureBox1.BackColor = Color.Blue;
+            }
+            else if (bmi < 25)
+            {
+                lblresult.Text = "정상체중";
+                pictureBox1.BackColor = Color.Green;
+            }
+            else if (bmi < 30)
+            {
+                lblresult.Text = "경도비만";
+                pictureBox1.BackColor = Color.Orange;
+            }
+            else if (bmi < 40)
+            {
+                lblresult.Text = "비만";
+                pictureBox1.BackColor = Color.Yellow;
+            }
+            else
+            {
+                lblresult.Text = "고도비만";
+                pictureBox1.BackColor = Color.Red;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)

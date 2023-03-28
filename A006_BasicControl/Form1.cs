@@ -14,5 +14,10 @@ namespace A006_BasicControl
             else
                 lblresult.Text = txtname.Text + "¥‘! æ»≥Á«œººø‰!";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
