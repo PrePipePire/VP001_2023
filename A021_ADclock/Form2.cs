@@ -8,17 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace A019_Clock
+namespace A021_ADclock
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        bool aFlag = false; // analog 시계를 표시하는 깃발
-        public Form1()
+        bool aFlag = false;
+        const int clientSize = 450;
+        public Form2()
         {
             InitializeComponent();
+            this.Text = "analog/digital clock by kang";
+            this.ClientSize = new Size(clientSize, clientSize + menuStrip2.Height);
+            this.BackColor = Color.White;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
             timer1.Enabled = true;
             timer1.Interval = 1000;
@@ -38,11 +42,6 @@ namespace A019_Clock
             }
         }
 
-        private void 종료ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void 디지털시계ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             aFlag = false;
@@ -53,6 +52,11 @@ namespace A019_Clock
             Form1 form = new Form1();
             this.Hide();
             form.ShowDialog();
+        }
+
+        private void 종료ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
